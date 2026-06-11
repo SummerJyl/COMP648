@@ -99,4 +99,78 @@
 // let nullValue = null;
 // console.log(nullValue);
 
-// #10 Use the unary typeof operator on various literals to return the following types within the console window: string, number, Boolean, object, and undefined.
+// #10 Use the unary typeof operator on various literals to return the following types within the console window:
+// string, number, Boolean, object, and undefined.
+// let firstName = "Jylian";
+// let yourAge = 35;
+// let mayWeContactYou = true;
+// let person = { name: "Jylian", age: 35 };
+// let referralSource;
+
+// console.log(typeof firstName);
+// console.log(typeof yourAge);
+// console.log(typeof mayWeContactYou);
+// console.log(typeof person);
+// console.log(typeof referralSource);
+
+// #11 Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows:
+// Hello Zak Ruvalcaba, welcome to the JavaScript class!
+// let firstName = "Zak";
+// let lastName = "Ruvalcaba";
+// let welcomeMessage =
+//   "Hello " + firstName + " " + lastName + ", welcome to the JavaScript class!";
+// window.alert(welcomeMessage);
+
+// #12 Declare a variable called name and set it equal to your name.
+// Substitute your name in the previous alert string with the variable instead
+// let name = "Jylian";
+// let firstName = "Jylian";
+// let lastName = "Summers";
+// let welcomeMessage =
+//   "Hello " + firstName + " " + lastName + ", welcome to the JavaScript class!";
+// window.alert(welcomeMessage);
+
+// #14 Rework the above string so that a line break is added right before the word “Welcome”. Your alert box should display as follows:
+// Hello Zak Ruvalcaba.
+// Welcome to the JavaScript class!
+// let name = "Zak";
+// let firstName = "Zak";
+// let lastName = "Ruvalcaba";
+// let welcomeMessage =
+//   "Hello " + firstName + " " + lastName + ",\nWelcome to the JavaScript class!";
+// window.alert(welcomeMessage);
+
+// #15 Replace the hardcoded string of your name with a prompt that asks the user for their name.
+// The prompt’s response will now be captured in the name variable.
+// let firstName = window.prompt("What is your first name?");
+// let lastName = window.prompt("What is yourlast name?");
+// let course = "JavaSCript";
+
+// let welcomeMessage =
+//   "Hello " + firstName + " " + lastName + ", welcome to the " + course + " class!";
+//   window.alert(welcomeMessage);
+
+// #16 Replace the hardcoded string of the class you are taking with a prompt that asks the user for the class they are taking.
+// The prompt’s response will now be captured in the course variable.
+// let firstName = window.prompt("What is your first name?");
+// let lastName = window.prompt("What is yourlast name?");
+// let course = window.prompt("What class are you taking?");
+
+// let welcomeMessage =
+//   "Hello " + firstName + " " + lastName + ", welcome to the " + course + " class!";
+//   window.alert(welcomeMessage);
+
+// 17 Declare a variable called x and assign it a value of 10.
+// Declare a variable called y and assign it a value of 20.
+// Display the sum of those two numbers in the console window.
+// let x = 10;
+// let y = 20;
+// let sum = x + y;
+// console.log(sum);
+
+// #18 Declare a variable called x and assign it a value of 20.
+// Add and assign 20 to that variable and display the result in the console window.
+// The result should be 40.
+let x = 20;
+x += 20;
+console.log(x);
